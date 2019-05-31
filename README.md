@@ -66,7 +66,7 @@ WM("myMainModule", {"helloModule","coffeeModule"}, function(import, export, expo
     
 end)
 
--- load all modules instantly
+-- Disable lazy loading and load all modules instantly
 loadAllWMs()
 
 ```
