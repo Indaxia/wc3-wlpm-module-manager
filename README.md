@@ -32,7 +32,8 @@ WM("helloModule", function(import, export, exportDefault) -- declare your module
     export("welcome", "Welcome!") -- declare custom export value
 end)
 
-importWM("myMainModule") -- call your main import from triggers or anywhere
+-- call your main import from triggers on MAP INITIALIZATION or anywhere
+importWM("myMainModule") 
 ```
 
 Result:
