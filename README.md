@@ -14,6 +14,7 @@ Modules let you write componentized and sharable code. WLPM Module Manager allow
 
 
 ```lua
+-- file1 (or Custom Script 1)
 WM("myMainModule", function(import, export, exportDefault) -- declare your main module
     local greeting = import "helloModule" -- use default export value
     local anotherGreeting = import("welcome", "helloModule") -- use custom export value
@@ -26,11 +27,13 @@ WM("myMainModule", function(import, export, exportDefault) -- declare your main 
     print (anotherCoffee)
 end)
 
+-- file2 (or Custom Script 2)
 WM("coffeeModule", function(import, export, exportDefault) -- declare your module
     exportDefault "Espresso!" -- declare default export value
     export("cappuccino", "Your cappuccino, sir!") -- declare custom export value
 end)
 
+-- file3 (or Custom Script 3)
 WM("helloModule", function(import, export, exportDefault) -- declare your module
     exportDefault "Hello!" -- declare default export value 
     export("welcome", "Welcome!") -- declare custom export value
