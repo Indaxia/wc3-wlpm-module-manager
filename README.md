@@ -3,8 +3,9 @@ Warcraft 3 Lua Module Manager (like ES6)
 Provides functions to create and use [ES6-style modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export#Using_the_default_export) in Warcraft 3 lua code. WM means Warcraft Module.
 
 ## How to install
-- Copy wlpm-module-manager.lua to your top Custom Code section or top of the war3map.lua
+- Copy [wlpm-module-manager.lua](wlpm-module-manager.lua) to your top Custom Code section or top of the war3map.lua
 - OR use [WLPM](https://github.com/Indaxia/WLPM), this is built-in there
+- OR download [Demo map](wlpm-mm-demo1.w3x)
 
 ## Example Usage
 
