@@ -46,6 +46,7 @@ Your cappuccino, sir!
 ## Advanced Usage
 
 ```lua
+-- advanced export
 WM("coffeeModule", function(import, export, exportDefault) -- declare your module
     exportDefault "Espresso!" -- declare default export value
     export { -- declare multiple custom export values
@@ -58,5 +59,8 @@ end)
 WM("myMainModule", {"helloModule","coffeeModule"}, function(import, export, exportDefault) 
     
 end)
+
+-- load all modules instantly
+loadAllWMs()
 
 ```
