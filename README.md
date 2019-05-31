@@ -51,7 +51,8 @@ WM("coffeeModule", function(import, export, exportDefault) -- declare your modul
     exportDefault "Espresso!" -- declare default export value
     export { -- declare multiple custom export values
       "cappuccino" = "Your cappuccino, sir!",
-      "macciato" = "One nonfat macchiato"
+      "macciato" = "One nonfat macchiato",
+      "someFunction" = (function() return "something" end)
     }
 end)
 
