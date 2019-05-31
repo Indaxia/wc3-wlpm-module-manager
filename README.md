@@ -2,7 +2,7 @@ Warcraft 3 Lua Module Manager (like ES6)
 
 Provides functions to create and use [ES6-style modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export#Using_the_default_export) in Warcraft 3 lua code. WM means Warcraft Module.
 
-Modules let you write componentized and sharable code. WLPM Module Manager allows you to declare your modules in any order. It arranges everything for you: dependency tree, loop detection etc.
+Modules let you write componentized and sharable code. WLPM Module Manager allows you to declare your modules in any order. It arranges everything for you: dependency tree, loop detection, lazy loading etc.
 
 
 ## How to install
