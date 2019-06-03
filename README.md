@@ -7,7 +7,7 @@ Modules let you write componentized and sharable code. WLPM Module Manager allow
 
 ## How to install
 - Use [WLPM](https://github.com/Indaxia/WLPM)
-- **OR** Copy [wlpm-module-manager.lua](wlpm-module-manager.lua) to your top Custom Code section or top of the war3map.lua
+- **OR** copy [wlpm-module-manager.lua](wlpm-module-manager.lua) to your top Custom Code section or top of the war3map.lua
 - **OR** download [Demo map](wlpm-mm-demo1.w3x)
 
 ## Example Usage
