@@ -76,7 +76,7 @@ function wlpmLoadModule(name, depth)
 end
 
 function wlpmImportModule(name, whatToImport)
-  theModule = wlpmLoadModule(name)
+  local theModule = wlpmLoadModule(name)
   if (type(whatToImport) == "string") then
     if(theModule.exports[whatToImport] == nil) then
       print("WLPM Error: name '" .. whatToImport .. "' was never exported by the module '" .. name .. "'")
