@@ -1,4 +1,5 @@
-# !!! WLPM IS DEPRECATED - USE [Module Manager](https://github.com/Indaxia/imp-lua-mm) for [IMP](https://github.com/Indaxia/imp-lua)
+> [!CAUTION]
+> WLPM IS DEPRECATED - USE [Module Manager](https://github.com/Indaxia/imp-lua-mm) for [IMP](https://github.com/Indaxia/imp-lua)
 
 Warcraft 3 Lua Module Manager (like ES6)
 
