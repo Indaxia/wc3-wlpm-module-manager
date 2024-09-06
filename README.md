@@ -1,3 +1,5 @@
+# !!! WLPM IS DEPRECATED - USE [Module Manager](https://github.com/Indaxia/imp-lua-mm) for [IMP](https://github.com/Indaxia/imp-lua)
+
 Warcraft 3 Lua Module Manager (like ES6)
 
 Provides functions to create and use [ES6-style modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export#Using_the_default_export) in Warcraft 3 lua code. WM means Warcraft Module.
